@@ -14,7 +14,7 @@ export default {
   --checkbox-color: grey;
   --checkmark-color: white;
   label {
-      position: relative;
+    position: relative;
   }
   span {
     width: 16px;
@@ -42,7 +42,7 @@ export default {
     &:checked ~ span {
       background: var(--checkbox-color);
       &:after {
-          visibility: visible;
+        visibility: visible;
       }
     }
   }
